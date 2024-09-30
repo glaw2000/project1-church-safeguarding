@@ -22,6 +22,8 @@ h3 {
 
 .table {
     border: thin solid #87001b;
+    border-spacing: 10px;
+    
 }
 
 /* Header */
@@ -58,19 +60,60 @@ main > p {
     background-color: #c8d6af;
     height: auto;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
 }
 
 #div2 {
     background-color: #fffdcc;
     height: auto;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
 }
 
 #div3 {
     background-color: #c8d6af;
     height: auto;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* padding-top: 10px; */
 }
+
+.col {
+    padding-top: 40px;
+}
+
+#div1 img {
+    height: 20%;
+    width: 20%;
+    padding: 20px;
+}
+
+#div2 img {
+    height: 20%;
+    width: 20%;
+    padding: 20px;
+}
+
+#div3 img {
+    height: 20%;
+    width: 20%;
+    padding: 20px;
+}
+
+
+table tr {
+    text-align: left;
+    float: left;
+}
+
 
 /* footer */
 footer {

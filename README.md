@@ -89,12 +89,12 @@ More detailed forms
 - Google Fonts - fonts were imported from here 
 - pexels - images were downloaded from here  
 - Convertio - to convert PNG files to WEBP files
-- Favicon.io - for badger favicon  
-- Tiny PNG - to compress images 
+- Favicon.io - for compressing logo into a favicon  
+- 
 - Google Dev Tools - to debug and for testing responsiveness 
 - Google Lighthouse - for auditing the website
 - W3C Validator - for validating the HTML and CSS code 
- 
+ - stackoverflow - questions eg left-aligning-tables-with-css
 
 
 
