@@ -1,8 +1,9 @@
 /* General styles */
 body {
     background-color: #fafafa;
-    margin: 0;
+    margin: auto;
     padding: 0;
+    max-width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,6 +29,10 @@ header h1 {
     color: #ffffff;
     text-align: center;
 }
+ header img {
+    max-width: 10%
+       
+ }
 
 /* main */
 
