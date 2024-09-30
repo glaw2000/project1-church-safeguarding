@@ -18,9 +18,9 @@ My page can be viewed here on github:
 - As an organisation we want to provide contact information so that parishioners can get safeguarding support where needed.
 - As an organisation we want to provide a complaints procedure  so that parishioners can log complaints about church safeguarding if necessary.
 - As an organisation we want to ensure all church leaders are trained in safeguarding so that they can adhere to church safeguarding.
-- As a church leader ( choir master/ sunday school teacher etc ) I want to know how to learn/train about safeguarding so that I adhere to the churchs safeguarding.
+- As a church leader ( choir master/ sunday school teacher etc ) I want to know how to learn/train about safeguarding so that I adhere to the churchs safeguarding
 guidelines
-- As a church leader ( choir master/ sunday school teacher etc ) I want to know how to keep my safeguarding training up to date so that I adhere to the churchs safeguarding.
+- As a church leader ( choir master/ sunday school teacher etc ) I want to know how to keep my safeguarding training up to date so that I adhere to the churchs safeguarding
 guidelines
 
 
@@ -60,7 +60,7 @@ Wireframe for mobile, created using balsamiq
 
 ### Surface
 1. Colours will be used to tie together the header, content and footer
-2. A minimum colour pallette will be used to provide and easy to view accessible site
+2. A minimum colour pallette will be used to provide an easy to view accessible site
 
 ---
 ## Design

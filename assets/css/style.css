@@ -20,6 +20,10 @@ h3 {
     letter-spacing: 2px;
 }
 
+.table {
+    border: 10px solid #87001b;
+}
+
 /* Header */
 header {
     background-color: #87001b;
