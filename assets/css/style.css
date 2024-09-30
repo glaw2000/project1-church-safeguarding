@@ -29,7 +29,9 @@ header h1 {
     color: #ffffff;
     text-align: center;
 }
- header img {
+ 
+/* need to position and size this better */
+header #logo {
     max-width: 10%
        
  }
@@ -84,7 +86,7 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: #ffffff;
-
+}
 
     /* media queries if needed copied from browserstack webpage */
 
