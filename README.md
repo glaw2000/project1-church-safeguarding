@@ -1,131 +1,166 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Grace Lawrence,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Church Safeguarding
+Welcome to the README for a standalone webpage on Safeguarding information for a local church parish. This page has been built using HTML and CSS. This is my first project built for the Code Institute's Full Stack Software Development course.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+My page can be viewed here on github:
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience - User Stories
 
-`python3 -m http.server`
+- As a member of the parish I want to know what the churchs safeguarding policy is so that I understand how the church protects its parish. 
+- As a member of the parish I want to know how to get safeguarding advice so that I can report a concern. 
+- As a member of the parish I want to know who to contact so that I can get safeguarding support.
+- As an organisation we want to incorporate and refer to the Church of England (CoE) safeguarding guidance so that we are in alignment with the CoE safeguarding.
+- As an organisation we want to incorporate and refer to Diocese of Blackburn safeguarding guidance so that we are in alignment with the Diocese of Blackburn safeguarding.
+- As an organisation we want to provide clear easy to access safeguarding information so that anyone can find out about how the church safeguards its people.
+- As an organisation we want to provide contact information so that parishioners can raise concerns where necessary.
+- As an organisation we want to provide contact information so that parishioners can get safeguarding support where needed.
+- As an organisation we want to provide a complaints procedure  so that parishioners can log complaints about church safeguarding if necessary.
+- As an organisation we want to ensure all church leaders are trained in safeguarding so that they can adhere to church safeguarding.
+- As a church leader ( choir master/ sunday school teacher etc ) I want to know how to learn/train about safeguarding so that I adhere to the churchs safeguarding.
+guidelines
+- As a church leader ( choir master/ sunday school teacher etc ) I want to know how to keep my safeguarding training up to date so that I adhere to the churchs safeguarding.
+guidelines
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
 
 ------
+## Development Plane Considerations
+### Strategy
+The aim of the page is to build a single static webpage using html and css to provide safeguarding information to anyone involved in the church. 
 
-## Release History
+### Scope
+The page will
+1. provide information for all about what safeguarding is
+2. provide information for all about how the church safeguards its parish
+3. provide information for all on how to raise a concern
+4. provide information for all on how to get advice and support
+5. have an option so that users can get in touch 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Structural
+The page should:
 
-**June 18, 2024,** Add Mongo back into template
+1. have a logo
+2. have a nav bar
+3. have recognisable icons for social media links
+4. have a clear header and footer section
+5. have a simple but attractive layout of the body that is not too busy but gives the user all the information they need or a way of getting to it. 
+6. be repsonsive to different screen sizes 
+7. have an intuitive layout that all can navigate with ease
+8. have the most important information at the top of the page
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
 
-**May 28 2024:** Fix Mongo and Links installs
+### Skeleton
+1. A header and footer will sandwich the content 
+2. Using the principle of 3s for design layout the content will be split up into 3 horizontal sections to contain the main topics of information of About Safeguarding, How to repoond and Further Information.
+3. The layout will be balanced by placing images alternatively left to right within the three sections.
+4. Familiar icons for social media links will be used  
 
-**April 26 2024:** Update node version to 16
+Wireframe for mobile, created using balsamiq
 
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Surface
+1. Colours will be used to tie together the header, content and footer
+2. A minimum colour pallette will be used to provide and easy to view accessible site
 
 ---
+## Design
+ Using Coolers I picked my colour theme but starting with the burgandy in the colour picker as this is the existing colour used on the church logo.
+ I used a contrast checker on a practice repo where I set the colours up to ensure they passed for accessibilty. 
 
-Happy coding!
+ Typography
+ I went with a standard I'd seen used in previous code institute projects to start with and if time allows I will look into different options from google fonts.
+
+Imagery using pexels
+
+Page features will include a basic get in touch form, clickable links to further information and icons for social media links.
+
+## Roadmap and future features
+Ideas for releases in the future:
+Improve typography
+More detailed forms
+
+## **Technologies & Programs Used** 
+- HTML5
+- CSS3
+
+- balsamiq - used to produce wireframes and background vector artwork 
+- GitHub - used to save and store all files for this website  
+- Git - used for version control
+- Google Fonts - fonts were imported from here 
+- pexels - images were downloaded from here  
+- Convertio - to convert PNG files to WEBP files
+- Favicon.io - for badger favicon  
+- Tiny PNG - to compress images 
+- Google Dev Tools - to debug and for testing responsiveness 
+- Google Lighthouse - for auditing the website
+- W3C Validator - for validating the HTML and CSS code 
+ 
+
+
+
+## Installation
+
+
+### **How to deploy**  
+
+GitHub was used to deploy the website. These were the steps taken to achieve this:  
+
+1. Login to GitHub account.
+2. Navigate to the project repository, put name here
+3. Click the Settings button near the top of the page.
+4. In the left-hand menu, find and click on the Pages button.
+5. In the Source section, choose 'main' from the drop-down, and select branch menu.
+6. Select 'root' from the drop-down folder menu.
+7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page.
+
+<br>
+
+### **How to run this project locally**  
+
+To clone this project from GitHub:  
+
+1. Visit the put link title here in sq brckets followed by url in round
+2. Click on the <b>Code</b> dropdown menu located beside the green <b>GitPod</b> button. 
+3. Choosing your preferred cloning option of <b>HTTPS, SSH</b> or <b>GitHub CLI</b>, click on the clipboard icon to copy the displayed URL. 
+4. Open the terminal in your code editor and change the working directory to the location that you wish to use for the cloned directory.
+5. Type 'git clone' into the terminal, paste your copied link, and press enter.
+
+<br>  
+
+### **To fork the repository on GitHub** 
+  
+To make a copy of this GitHub repository that allows you to view the content and make changes without affecting the original repository, please take the following steps:
+  
+1. Login to <b>GitHub</b> and find repo name and url
+2. Locate the <b>Fork</b> button on the top, right hand side of the page.
+3. Click on the <b>Fork</b> button to create a copy of the repository in your GitHub account.
+
+## Testing
+### manual - do all links work, forms, feedback etc
+
+On desktop, the browsers that I had access to for testing were:
+
+- <b>Chrome</b>
+- <b>Firefox</b> 
+- <b>Edge</b>  
+Did not have apple safari to test with.
+Put manual test results here: 
+
+Bugs Feature status fix details here:
+
+Devtools - responsiveness
+
+contrast checking
+lighhouse performance checking
+### Validation
+W3C html validator results
+W3C css validator results
+
+## Credits
+### **Content References**
+Used Amy's Irish Wildlife Matchup repo ReadMe as a bit of template and copied some of the relevant content.
+
+### **Acknowledgements**  
+  
+I would like to thank 
+---
