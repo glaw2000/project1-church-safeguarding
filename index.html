@@ -15,15 +15,16 @@
     <header>
         <div id="banner">
             <div id=logo> 
-                <img id="logo" src="assets/images/church-logo.webp"
-                alt="circular logo for united benifice of Warton and Borwick with Yealand showing all three churches">
+                <!-- would like to home page rather than internal if incorporated into a UBWBY site -->
+                <a href="#about"> <img id="logo" src="assets/images/church-logo.webp"
+                alt="circular logo for united benifice of Warton and Borwick with Yealand showing all three churches"></a>
             </div>    
             
             <div id="title">
                 <h1>UBWBY Safeguarding</h1>
             </div>
             <div id="nav">
-                <!-- taken from love running -->
+                <!-- adapted from love running project-->
                 <input type="checkbox" id="nav-toggle" name="nav-toggle">
                 <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
                 <nav>
@@ -140,6 +141,7 @@
                         <td>Tracey Lawther</td>
                         <td><i class="fa-solid fa-mobile"></i>07990610687</td>
                     </tr>
+                    <br>
                     <tr>
                         <th>PSO for Borwick</th>
                         <td> Jenny Chapman</td>
@@ -302,19 +304,36 @@
     </main>
 
     <footer>
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com/UnitedWBY/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
-            </li>
+        <div id="contact">
+            <form id="contact_us" action="https://formdump.codeinstitute.net" method="post">
+                <h2>Get In Touch</h2>
+                <label for="first-name">First Name</label>
+                <input id="first-name" class="text-input" type="text" name="first_name" required>
+                <br>
+                <label  for="last-name">Last Name</label>
+                <input id="last-name" class="text-input" type="text" name="last_name" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input id="email-address" class="text-input" type="email" name="email_address" required>
+                <br>
+                <label for="message">Message</label>
+                <input id="message" class="message-input" type="text" name="message" required>
+                <br>
+                <button class="message-button" type="submit">Submit</button>
+            </form>
+        </div>
 
-            <li>
+        <div id="socials">
+            <h2>Follow us</h2>
+                <a href="https://www.facebook.com/UnitedWBY/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)">
+                        <i class="fa-brands fa-facebook"></i></a>
+        
+                
                 <a href="https://www.youtube.com/channel/UCxvBVdGYIkoSIT82RWf7A5Q/videos?view=0&sort=dd&shelf_id=0" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube-square"></i></a>
-            </li>
-        </ul>
+                        aria-label="Visit our YouTube page (opens in a new tab)">
+                        <i class="fa-brands fa-youtube-square"></i></a>              
+        </div>
     </footer>
 
     <script src="https://kit.fontawesome.com/6b67198870.js" crossorigin="anonymous"></script>

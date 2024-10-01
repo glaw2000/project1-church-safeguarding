@@ -106,7 +106,7 @@ main > p {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 5%;
 }    
 
 #respond {
@@ -115,7 +115,7 @@ main > p {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 5%;
 }
 
 #support {
@@ -124,11 +124,11 @@ main > p {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 5%;
 }
 
 .cell {
-    padding: 5px;
+    padding: 5%;
     }
 
 #about img {
@@ -160,22 +160,73 @@ table tr {
 footer {
     background-color: #87001b;
     width: 100%;
-}
-
-/* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
 }
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #ffffff;
+#contact {
+    width:50%;
 }
+
+#contact_us >h2 {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#socials >h2 {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#contact_us label {
+    color: #c8d6af;
+    min-width:110px;
+}
+
+.text-input {
+background: transparent;
+color: #ffffff;
+border: 1px solid #c8d6af;
+height: 25px;
+margin: 10px;
+}
+
+.message-input {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #c8d6af;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    height: 100px;
+    width: 20%;
+}
+
+.message-button {
+    border-radius: 2px;
+    background-color: #c8d6af;
+    color:#87001b;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
+}
+
+#socials {
+    width:50%;
+}
+
+
+#socials  i {
+    font-size: 160%;
+    padding: 20px;
+    color: #ffffff;  
+}
+
 
     /* media queries if needed copied from browserstack webpage */
 
