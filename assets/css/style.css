@@ -26,7 +26,7 @@ h3 {
     border-spacing: 10px;
     
 }
-
+/* =================================================================================== */
 /* Header */
 #banner {
     background-color: #87001b;
@@ -34,7 +34,7 @@ h3 {
     margin:0;
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+    width: 100%;
 }
 
 #logo {
@@ -85,7 +85,7 @@ nav {
     color:#87001b;
     text-decoration: none;
 }
-
+/* =================================================================================== */
 /* main */
 
 /* Enlarge main element to push footer down. 
@@ -105,10 +105,9 @@ main > p {
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;    
-    padding: 20px;
+    flex-direction: column;
+    /* justify-content: space-evenly;     */
+    /* padding: 20px; */
 }    
 
 #respond {
@@ -116,9 +115,9 @@ main > p {
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* padding: 20px; */
 }
 
 #support {
@@ -126,19 +125,12 @@ main > p {
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
+    flex-direction: column;
+
 }
 
-.col {
-    /* remove border -only there to help me size div */
-    /* border: thin solid #87001b; */
-    /* padding top right bottom left */
-    padding: 0px 5px;
-    /* float: left; */
-    width: 33%;
-}
+.cell {
+    }
 
 #about img {
     height: 30%;
@@ -164,10 +156,11 @@ table tr {
     float: left;
 }
 
-
+/* ================================================================================ */
 /* footer */
 footer {
     background-color: #87001b;
+    width: 100%;
 }
 
 /* Footer */
@@ -200,8 +193,9 @@ footer {
 /* } */
 
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) { */
-/* } */
+/* @media only screen and (min-width: 992px) {
+
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) { */
