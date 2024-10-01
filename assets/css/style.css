@@ -31,24 +31,31 @@ header {
     background-color: #87001b;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 100px;    
+    justify-content: space-between;
+    /* gap: 100px;     */
 }
 
 /* need to position and size these better */
 
 #logo {
     max-width:33%;
+    float:left;
+    /* remove border -only there to help me size div */
+    border: thin solid #ffffff;
 }
 
 #header {
     color: #ffffff;
     max-width: 33%;
+    /* remove border -only there to help me size div */
+    border: thin solid #ffffff;
 }
 
 #nav {
     color: #ffffff;
     max-width: 33%;
+    /* remove border -only there to help me size div */
+    border: thin solid #ffffff;
 }
 
 
@@ -102,6 +109,8 @@ main > p {
     border: thin solid #87001b;
     /* padding top right bottom left */
     padding: 0px 5px;
+    float: left;
+    width: 33%;
 }
 
 #about img {
