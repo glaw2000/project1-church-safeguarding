@@ -24,7 +24,10 @@ h3 {
 .table {
     border: thin solid #87001b;
     border-spacing: 10px;
-    
+    table-layout: fixed;
+    width: 50%;
+    /* float:inline-start; */
+ 
 }
 /* =================================================================================== */
 /* Header */
@@ -133,24 +136,27 @@ main > p {
 .cell {
     padding-top: 1%;
     padding-bottom: 1%;
-    }
+}
 
 #about img {
     height: 30%;
     width: 30%;
     padding: 5px 50px 10px 50px;
+    float:inline-start;
 }
 
 #respond img {
     height: 30%;
     width: 30%;
     padding: 5px 50px 10px 50px;
+    float: inline-end;
 }
 
 #support img {
     height: 30%;
     width: 30%;
     padding: 5px 50px 10px 50px;
+    float:inline-start;
 }
 
 
