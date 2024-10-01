@@ -25,9 +25,7 @@ h3 {
     border: thin solid #87001b;
     border-spacing: 10px;
     table-layout: fixed;
-    width: 50%;
-    /* float:inline-start; */
- 
+    width: 100%; 
 }
 /* =================================================================================== */
 /* Header */
