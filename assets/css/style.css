@@ -42,25 +42,18 @@ h3 {
 }
 
 #logo {
-    
-    width: 33%
-    /* change border color back to burgandy when I've sorted div sizing and positioning */
-    /* border: thin solid #007387; */
-
+    width: 33%;
+    border: thin solid #007387;
 }
 
 #title {
     color: #ffffff;
     width: 33%;
-    /* remove border -only there to help me size div */
-    /* border: thin solid #0b8700; */
 }
 
 #nav {
     color: #ffffff;
     width: 33%;
-    /* remove border -only there to help me size div */
-    border: thin solid #874c00;
     position: relative;
 }
 /* nav styles below are from love running modify and add position relative to parent element (#nav)*/
@@ -118,6 +111,7 @@ main > p {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;    
     padding: 20px;
 }    
