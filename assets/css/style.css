@@ -55,6 +55,9 @@ h3 {
     color: #ffffff;
     width: 33%;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 /* nav styles below are from love running modify and add position relative to parent element (#nav)*/
 /* navbar styles with dropdown toggle */
@@ -67,9 +70,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    color: #c8d6af;
-    
-
+    color: #c8d6af;   
 }
 
 /* Nav toggle */
