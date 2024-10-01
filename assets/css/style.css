@@ -35,13 +35,11 @@ header {
     /* gap: 100px;     */
 }
 
-/* need to position and size these better */
-
 #logo {
     max-width:33%;
     float:left;
-    /* remove border -only there to help me size div */
-    border: thin solid #ffffff;
+    /* change border color back to bugandy when I've sorted div sizing and positioning */
+    border: thin solid #0b8700;
 }
 
 #header {
@@ -52,10 +50,35 @@ header {
 }
 
 #nav {
+    position: relative;
     color: #ffffff;
     max-width: 33%;
     /* remove border -only there to help me size div */
     border: thin solid #ffffff;
+}
+/* nav styles below are from love running modify and add position relative to parent element (#nav)*/
+/* navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 
