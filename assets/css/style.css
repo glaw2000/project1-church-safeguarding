@@ -163,14 +163,16 @@ tr>td {
 }
 
 .top {
-    border-radius: 2px;
     background-color:#87001b ;
+    border-radius: 2px;
+    color: #c8d6af;
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2px;
+    width: 30px;
 }
 
-.top a {
-    text-decoration: none;
-    color: #c8d6af;
-}
 /* ================================================================================ */
 /* footer */
 footer {
@@ -246,7 +248,7 @@ width: 200px;
 
 
     /* media queries syntax copied from browserstack webpage */
-    
+
     /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
 #logo {display: none;}
