@@ -178,6 +178,7 @@ W3C css validator results
 
 ## Credits
 ### **Content References**
+Used notes and and training material from Code Institute Full Stack Developer Bootcamp.
 Used Amy's Irish Wildlife Matchup repo ReadMe as a bit of template and copied some of the relevant content.
 Used content on church safeguarding from the following sites:
 - 
