@@ -84,6 +84,7 @@ Format the text around the images to have a better use of white space when viewe
 Use hover over links rather than traditional underlined hyperlinks.
 Reduce height of footer by making the contact form a pop up rather than a static form.
 Add more information to the footer. 
+Make menu items retract once user has selected an item from nav menu.
 
 ## **Technologies & Programs Used** 
 - HTML5
@@ -144,7 +145,7 @@ To make a copy of this GitHub repository that allows you to view the content and
 ## Testing
 
 
-Tested using chrome browser. Future work would be to test with Edge and Firefox. 
+Tested using Chrome and Edge browser. Future work would be to test with Firefox. 
  
 Did not have apple safari to test with.
 
@@ -188,6 +189,7 @@ Used content on church safeguarding from the following sites:
 - https://www.lancashire.gov.uk/health-and-social-care/
 - https://www.ncvo.org.uk/help-and-guidance/safeguarding/getting-started-with-safeguarding/what-is-safeguarding/#/further-resources-to-get-you-started
 -  https://thirtyoneeight.org/
+- https://safespacesenglandandwales.org.uk/
 
 
 ---
