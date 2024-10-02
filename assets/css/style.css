@@ -15,7 +15,6 @@ body {
 h1,
 h2,
 h3 {
-    font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
@@ -38,17 +37,20 @@ h3 {
     width: 100%;
 }
 
-#logo {
+.logo {
     width: 33%;
     border: thin solid #87001b;
 }
-
-#title {
+#logo {
+    height:100%;
+    width:100%
+}
+.title {
     color: #ffffff;
     width: 33%;
 }
 
-#nav {
+.nav {
     color: #c8d6af;
     width: 33%;
     position: relative;
@@ -82,7 +84,7 @@ nav {
     font-size: 2rem;
 }
 
-#nav a {
+.nav a {
     color:#87001b;
     text-decoration: none;
 }
@@ -238,9 +240,11 @@ width: 200px;
     /* media queries if needed copied from browserstack webpage */
 
     /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) { */
-/* } */
-
+@media only screen and (max-width: 600px) { 
+#logo {display: none;}
+.logo {width:10%}
+.title{width:50%}
+}   
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) { */
 /* } */
