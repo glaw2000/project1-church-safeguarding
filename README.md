@@ -104,8 +104,6 @@ Add more information to the footer.
 - wave - evaluate accessibility
 
 
-
-
 ## Installation
 
 
@@ -150,14 +148,24 @@ Tested using chrome browser. Future work would be to test with Edge and Firefox.
  
 Did not have apple safari to test with.
 
-Tested all internal links on page worked and menu navigation items.
-Tested social media icons took user to right page.
-Tested layout was responsive using devtools.
-Tested form gave user expected repsonse when completed with expected input.
-Tested form gave message to user and did not submit if they had missed entering input into a required field or put the email address in the wrong format. 
+Tested all internal links on page worked and menu navigation items. Pass.
+Tested social media icons took user to right page. Pass.
+Tested layout was responsive using devtools. Pass.
+Tested form gave user expected repsonse when completed with expected input. Pass.
+Tested form gave message to user and did not submit if they had missed entering input into a required field or put the email address in the wrong format. Pass.
+Tested performance using devtools Lighthouse tool. Pass.
+Tested accessibility using WAVE. Pass.
 
 
 Bugs Feature status fix details here:
+Table overflow was a bug initially until it was fixed using table-layout fixed value and setting width to 100%.
+Main 3 content divs were overflowing on some views. Fixed by removing the width setting.
+Added feature to return user to the top from the bottom of each section.
+Changed alt of compass in hand image to satisfy WAVE tool.
+Removed unordered lists from within paragraph tags to satify W3C validator.
+Modified a table from 4 columns to 3 to satisfy validator.
+Removed multiple erroneous /tr tags. 
+Removed button code from top anchor tag.
 
 
 Devtools - responsiveness
