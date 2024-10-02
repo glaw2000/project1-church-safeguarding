@@ -163,6 +163,15 @@ tr>td {
     overflow-wrap: break-word;
 }
 
+.top {
+    border-radius: 2px;
+    background-color:#87001b ;
+}
+
+.top a {
+    text-decoration: none;
+    color: #c8d6af;
+}
 /* ================================================================================ */
 /* footer */
 footer {
