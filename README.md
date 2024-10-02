@@ -68,16 +68,22 @@ Wireframe for mobile, created using balsamiq
  I used a contrast checker on a practice repo where I set the colours up to ensure they passed for accessibilty. 
 
  Typography
- I went with a standard I'd seen used in previous code institute projects to start with and if time allows I will look into different options from google fonts.
+ I went with a standard sans serif I'd seen used in previous code institute projects to start with and if time allows I will look into different options from google fonts.
 
-Imagery using pexels
+Used free imagery fron pexels and existing church logo.
 
 Page features will include a basic get in touch form, clickable links to further information and icons for social media links.
 
 ## Roadmap and future features
 Ideas for releases in the future:
+Add a hero image to fill width of screen below the Emergency message - church candle imagery.
 Improve typography
-More detailed forms
+Include a option for complaints
+Format the tables better
+Format the text around the images to have a better use of white space when viewed on large screens.
+Use hover over links rather than traditional underlined hyperlinks.
+Reduce height of footer by making the contact form a pop up rather than a static form.
+Add more information to the footer. 
 
 ## **Technologies & Programs Used** 
 - HTML5
@@ -90,11 +96,13 @@ More detailed forms
 - pexels - images were downloaded from here  
 - Convertio - to convert PNG files to WEBP files
 - Favicon.io - for compressing logo into a favicon  
-- 
-- Google Dev Tools - to debug and for testing responsiveness 
+- - Google Dev Tools - to debug and for testing responsiveness 
 - Google Lighthouse - for auditing the website
 - W3C Validator - for validating the HTML and CSS code 
- - stackoverflow - questions eg left-aligning-tables-with-css
+- stackoverflow - questions eg left-aligning-tables-with-css
+- general google queries
+- wave - evaluate accessibility
+
 
 
 
@@ -136,22 +144,26 @@ To make a copy of this GitHub repository that allows you to view the content and
 3. Click on the <b>Fork</b> button to create a copy of the repository in your GitHub account.
 
 ## Testing
-### manual - do all links work, forms, feedback etc
 
-On desktop, the browsers that I had access to for testing were:
 
-- <b>Chrome</b>
-- <b>Firefox</b> 
-- <b>Edge</b>  
+Tested using chrome browser. Future work would be to test with Edge and Firefox. 
+ 
 Did not have apple safari to test with.
-Put manual test results here: 
+
+Tested all internal links on page worked and menu navigation items.
+Tested social media icons took user to right page.
+Tested layout was responsive using devtools.
+Tested form gave user expected repsonse when completed with expected input.
+Tested form gave message to user and did not submit if they had missed entering input into a required field or put the email address in the wrong format. 
+
 
 Bugs Feature status fix details here:
 
-Devtools - responsiveness
 
-contrast checking
-lighhouse performance checking
+Devtools - responsiveness
+See docs for accessibility evaluation report (WAVE)
+See docs for performanace check (lighthouse report)
+
 ### Validation
 W3C html validator results
 W3C css validator results
@@ -159,8 +171,14 @@ W3C css validator results
 ## Credits
 ### **Content References**
 Used Amy's Irish Wildlife Matchup repo ReadMe as a bit of template and copied some of the relevant content.
+Used content on church safeguarding from the following sites:
+- 
+- https://www.churchofengland.org/safeguarding
+- https://www.blackburn.anglican.org/safeguarding
+- https://ubwby.org/safeguarding/
+- https://www.lancashire.gov.uk/health-and-social-care/
+- https://www.ncvo.org.uk/help-and-guidance/safeguarding/getting-started-with-safeguarding/what-is-safeguarding/#/further-resources-to-get-you-started
+-  https://thirtyoneeight.org/
 
-### **Acknowledgements**  
-  
-I would like to thank 
+
 ---
