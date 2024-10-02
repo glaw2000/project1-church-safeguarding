@@ -157,9 +157,10 @@ main > p {
 }
 
 
-table tr {
-    text-align: left;
-    float: left;
+/* to stop overflow of email address in table on small screens */
+tr>td {
+    text-wrap: wrap;
+    overflow-wrap: break-word;
 }
 
 /* ================================================================================ */
