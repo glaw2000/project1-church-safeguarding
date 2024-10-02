@@ -56,7 +56,7 @@ The page should:
 3. The layout will be balanced by placing images alternatively left to right within the three sections.
 4. Familiar icons for social media links will be used  
 
-Wireframe for mobile, created using balsamiq
+Wireframe for mobile, created using balsamiq - see docs folder
 
 ### Surface
 1. Colours will be used to tie together the header, content and footer
