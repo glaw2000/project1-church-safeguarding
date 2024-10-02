@@ -173,8 +173,8 @@ See docs for accessibility evaluation report (WAVE)
 See docs for performanace check (lighthouse report)
 
 ### Validation
-W3C html validator results
-W3C css validator results
+See docs for W3C html validator results
+See docs for W3C css validator results
 
 ## Credits
 ### **Content References**
