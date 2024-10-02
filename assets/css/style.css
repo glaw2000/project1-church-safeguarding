@@ -256,6 +256,29 @@ footer {
     padding: 0;
 }
 }   
+
+/* Small devices (740px and down) */
+@media only screen and (max-width: 740px) { 
+    #about img {
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        float:none;
+    }      
+    #respond img {
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        float:none;
+        }      
+    #support img {
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        float:none;
+        }      
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) { */
 /* } */
