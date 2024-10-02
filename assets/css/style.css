@@ -104,7 +104,6 @@ main > p {
 #about {
     background-color: #c8d6af;
     height: auto;
-    width: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 3%;
@@ -113,8 +112,7 @@ main > p {
 
 #respond {
     background-color: #fffdcc;
-    height: auto;
-    width: 100%;
+    height: auto; 
     display: flex;
     flex-direction: column;
     padding-left: 3%;
@@ -123,8 +121,7 @@ main > p {
 
 #support {
     background-color: #c8d6af;
-    height: auto;
-    width: 100%;
+    height: auto;  
     display: flex;
     flex-direction: column;
     padding-left: 3%;
